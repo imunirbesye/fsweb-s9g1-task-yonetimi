@@ -10,7 +10,11 @@ const Task = ({ taskObj, onComplete }) => {
           <span className="pill" key={p}>{p}</span>
         ))}
       </div>
-      {onComplete && <button onClick={() => onComplete(taskObj.id)}>Tamamlandı</button>}
+      {
+        onComplete && 
+          <button onClick={() => onComplete(taskObj.id)}>Tamamlandı</button>
+
+      }
     </div>
   );
 };
