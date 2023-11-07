@@ -1,11 +1,9 @@
-import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { useState } from "react"; 
 import "./app.css";
-import Task from "./Task";
-import TaskForm from "./TaskForm";
+import Task from "./Task"; 
 import TaskHookForm from "./TaskHookForm";
 import PeopleForm from "./PeopleForm"; 
-import { ToastContainer, toast, notify } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { initialTasks, initialTeam } from "./data";
 
 
